@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3000;
 const upload = multer({ dest: 'uploads/' });
 
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIAZI2LIIIPH7WRBUWU',
-    secretAccessKey: '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',
+    accessKeyId: '',
+    secretAccessKey: '',
 });
 
 const bucket_name = 'itsmemario';
